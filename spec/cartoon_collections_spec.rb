@@ -37,7 +37,7 @@ describe "Cartoon Collections" do
       ["Carrot!", "Cucumber!", "Pepper!"].each { |w| expect(result).to include w }
     end
   end
-
+=begin
   describe "#long_planeteer_calls" do
     it "returns true if any calls are longer than 4 characters" do
       long_calls = ["earth", "wind", "fire", "water", "heart"]
@@ -48,8 +48,8 @@ describe "Cartoon Collections" do
       short_calls = ["wind", "fire"]
       expect(long_planeteer_calls(short_calls)).to eq(false)
     end
-
-  end
+=end
+  #end
 
   describe "#find_the_cheese" do
     it "returns the first element of the array that is cheese" do
